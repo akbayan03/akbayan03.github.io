@@ -17,11 +17,13 @@ body{
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.header div{
+.header a{
     margin:0 40px;
+    text-decoration: none;
+    color: white;
 }
 .content-1{
-    background-image: url("bg-image.jpg");
+    background-image: url("img/bg-image.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +80,7 @@ p{
     font-size: 18px;
 }
 .p-5:hover{
-    opacity: 0.8;
+    color:rgb(168, 106, 25)
 }
 .p-6{
     margin-top: 80px;
