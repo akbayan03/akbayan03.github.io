@@ -57,21 +57,35 @@
                 </div>
             
             </div>
-            <div class="service2">
-                <div class="service2-img">
-                    <img src="img/srilanka3.jpg" alt="">
+            
+            <div class="row">
+                <div class="column">
+                  <img src="img/srilanka2.jpg" alt="Nature" onclick="myFunction(this);">
                 </div>
-                <div class="service2-img">
-                    <img src="img/srilanka1.jpg" alt="">
+                <div class="column">
+                  <img src="img/srilanka4.jpg" alt="Snow" onclick="myFunction(this);">
                 </div>
-                <div class="service2-img">
-                    <img src="img/srilanka4.jpg" alt="">
+                <div class="column">
+                  <img src="img/srilanka3.jpg" alt="Mountains" onclick="myFunction(this);">
                 </div>
-                <div class="service2-img">
-                    <img src="img/srilanka2.jpg" alt="">
+                <div class="column">
+                  <img src="img/srilanka1.jpg" alt="Lights" onclick="myFunction(this);">
                 </div>
-            </div>
+              </div>
+              
+              <!-- The expanding image container -->
+              <div class="container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+              
+                <!-- Expanded image -->
+                <img id="expandedImg" style="width:100%">
+              
+                <!-- Image text -->
+                <div id="imgtext"></div>
+              </div>
         </div>
     </div>
+    <script src="java7.js"></script>
 </body>
 </html>
