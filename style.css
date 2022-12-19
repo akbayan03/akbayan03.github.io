@@ -17,6 +17,7 @@ body{
     height: 80px;
     background-color: black;
     width: 100%;
+    z-index: 2;
 }
 .header div,a{
     color: white;
@@ -30,7 +31,7 @@ body{
 .header div:hover{
     color: #be0f2a;
 }
-.text{
+.texxt{
     margin-top: -400px;
     color: white;
     font-size: 50px;
@@ -40,7 +41,7 @@ body{
 }
 .btn{
     position: absolute;
-    width: 120px;
+    width: 150px;
     border: 1px solid transparent;
     background-color: #be0f2a;
     color: rgb(243, 213, 224);
@@ -49,93 +50,17 @@ body{
     text-align: center;
     margin-top: 50px;
     margin-left: 100px;
+    z-index: 1;
 }
 .btn:hover{
-    width:150px;
+    width:200px;
     background-color:rgb(236, 201, 213);
     transition: 0.5s;
     color: #be0f2a;
     border: 1px solid rgb(207, 98, 116);
 }
-.footer{
-    width: 100%;
-    height: 400px;
-    background-color: #be0f2a;
-}
 .main{
     width: 100%;
-}
-.words{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: black;
-    font-size: 30px;
-}
-.words div{
-    margin-top: 70px;
-    color: antiquewhite;
-    margin-left: -130px;
-}
-.txt{
-    width: 400px;
-    color: aliceblue;
-    font-size: 14px;
-    line-height: 30px;
-    margin-left: 40px;
-    margin-top: 30px;
-}
-.links{
-    display: flex;
-    flex-direction: column;
-    margin-left: 500px;
-    margin-top: -180px;
-    line-height: 30px;
-}
-.links a{
-    font-size: 17px;
-}
-.links a:hover{
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-}
-.tours{
-    display: flex;
-    flex-direction: column;
-    margin-left: 890px;
-    margin-top: -200px;
-    line-height: 30px;
-}
-.tours a{
-    font-size: 15px;
-}
-.tours2{
-    display: flex;
-    flex-direction: column;
-    margin-left: 1100px;
-    margin-top: -150px;
-    line-height: 30px;
-}
-.tours2 a{
-    font-size: 15px;
-}
-.tours a:hover{
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-}
-.tours2 a:hover{
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-}
-.facebook{
-    margin-left: 50px;
-}
-.inst{
-    margin-left: 0px;
-    margin-top: 20px;
-}
-.icons{
-    margin-top: 20px;
 }
 .french{
     padding: 500px;
@@ -202,8 +127,8 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .content-3{
-    height: 500px;
-    background:linear-gradient(to right,#be0f2a 50%, white 50%)
+    height: 550px;
+    background:linear-gradient(to right,#be0f2a 50%, white 50%);
 }
 .block{
     display: flex;
@@ -213,8 +138,299 @@ body{
 .block1, .block2, .block3{
     margin:65px 5px;
     width: 400px;
-    height: 370px;
+    height: 400px;
 }
 .block1{
     background-color:#33040b;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.block1 p{
+    margin-top: 60px;
+}
+.line{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.our{
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 100;
+}
+.view:hover{
+    background-color:rgb(236, 201, 213);
+    color: #be0f2a;
+    border: 1px solid rgb(207, 98, 116);
+}
+.view{
+    background-color: #be0f2a;
+    position: absolute;
+    width: 150px;
+    border: 1px solid transparent;
+    color: rgb(243, 213, 224);
+    font-size: 16px;
+    padding: 12px 15px;
+    text-align: center;
+    margin-top:20px;
+    margin-left: -100px;
+    z-index: 1;
+}
+.block2{
+    background-color: #be0f2a;
+    margin-left: 430px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 100;
+    line-height: 30px;
+    font-size: 15px;
+}
+.smth{
+    margin-top: 100px;
+    width: 85%;
+    margin-left: 30px;
+}
+.slideshow-container { 
+  max-width: 30%; 
+  position: relative; 
+  margin-top: -470px;
+  margin-left: 480px;
+} 
+.mySlides { 
+  display: none; 
+} 
+.prev, .next { 
+  cursor: pointer; 
+  position:absolute; 
+  top: 50%; 
+  background-color: transparent; 
+  width: 20px; 
+  margin-top: -22px; 
+  padding: 16px; 
+  color: white; 
+  padding-left: -50px; 
+  font-weight: bold; 
+  font-size: 18px; 
+  transition: 0.6s ease; 
+  border-radius: 0 3px 3px 0; 
+  user-select: none; 
+} 
+.next { 
+  right: 0; 
+  border-radius: 3px 0 0 3px; 
+} 
+.prev:hover, .next:hover { 
+  background-color: rgba(0,0,0,0.8); 
+} 
+.text { 
+  color: #f2f2f2; 
+  font-size: 15px; 
+  padding: 8px 12px; 
+  position: absolute; 
+  bottom: 8px; 
+  width: 100%; 
+  text-align: center; 
+} 
+.dot { 
+  cursor: pointer; 
+  height: 5px; 
+  width: 20px; 
+  background-color: beige; 
+  border-radius: 20%; 
+  border: 1px solid black; 
+  display: inline-block; 
+  transition: background-color 0.6s ease; 
+} 
+.active, .dot:hover { 
+  background-color: black; 
+  border: 1px solid beige; 
+} 
+.fade { 
+  animation-name: fade; 
+  animation-duration: 1.5s; 
+} 
+ 
+@keyframes fade { 
+  from {opacity: 0.9} 
+  to {opacity: 1} 
+} 
+.imgs{ 
+    width: 100%; 
+    text-align: center; 
+}
+.content-4{
+    background: url('img/bg.jpg');
+    width: 100%;
+    height: 700px;
+    background-attachment: fixed;
+}
+.containers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 600px;
+}
+.container-1{
+    position: absolute;
+    width: 380px;
+    height:380px;
+    background-color: #ffffff;
+    margin-left: -350px;
+}
+.container-2{
+    width: 500px;
+    height: 500px;
+}
+.container-1, .container-2{
+    margin-top: 100px;
+}
+.special{
+    font-size: 25px;
+    font-weight:bold;
+    color: #be0f2a;
+    text-align: center;
+    margin-top: 70px;
+}
+.viewoffers{
+    background-color: #be0f2a;
+    position: absolute;
+    width: 150px;
+    border: 1px solid transparent;
+    color: rgb(243, 213, 224);
+    font-size: 18px;
+    padding: 12px 15px;
+    text-align: center;
+    margin-top:20px;
+    margin-left: 100px;
+    z-index: 1;
+}
+.viewoffers:hover{
+    background-color:rgb(252, 234, 240);
+    color: #be0f2a;
+    border: 1px solid rgb(207, 98, 116);
+}
+.become{
+    text-align: center;
+    line-height: 30px;
+    width: 330px;
+    margin-top: 30px;
+    font-weight: 100;
+    margin-left: 30px;
+    color: rgb(109, 109, 109);
+}
+.content-5{
+    height: 500px;
+}
+.partners{
+    font-size: 30px;
+    color: #be0f2a;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+.line2{
+    width: 250px;
+    margin-left: 550px;
+    margin-top: 15px;
+}
+.content-6{
+    display: flex;
+    flex-direction: row;
+   
+    z-index: 1;
+}
+.content-6 img{
+    background-color: #33040b;
+}
+.first, .second{
+    margin:5px 12px
+}
+.out{
+    margin:10px 1px;
+}
+.out img:hover{
+        opacity: 0.9;
+}
+.outt{
+    margin-left: 17px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #be0f2a;
+}
+.words{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    font-size: 30px;
+}
+.words div{
+    margin-top: 70px;
+    color: rgb(255, 255, 255);
+    margin-left: -130px;
+}
+.txt{
+    width: 400px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: -180px;
+    line-height: 30px;
+}
+.links a{
+    font-size: 17px;
+}
+.links a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.tours{
+    display: flex;
+    flex-direction: column;
+    margin-left: 890px;
+    margin-top: -200px;
+    line-height: 30px;
+}
+.tours a{
+    font-size: 15px;
+}
+.tours2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1100px;
+    margin-top: -150px;
+    line-height: 30px;
+}
+.tours2 a{
+    font-size: 15px;
+}
+.tours a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.tours2 a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.facebook{
+    margin-left: 50px;
+}
+.inst{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.icons{
+    margin-top: 20px;
 }
