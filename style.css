@@ -31,6 +31,20 @@ body{
 .header div:hover{
     color: #be0f2a;
 }
+.headicon{
+    padding: 5px 5px;
+    background-color:#be0f2a;
+}
+.headicon:hover{
+    background-color: beige;
+}
+.headicons{
+    display: flex;
+    flex-direction: row;
+}
+.headicons img{
+    margin: 0 -5px;
+}
 .texxt{
     margin-top: -400px;
     color: white;
@@ -95,7 +109,7 @@ body{
     margin-left: 50px;
     color: rgb(92, 91, 91);
 }
-.beach img{
+.beach video{
     float: left;
     margin: -100px 40px;
 }
@@ -115,7 +129,7 @@ body{
     line-height: 35px;
     color: rgb(109, 109, 109);
 }
-.massage img{
+.massage video{
     float: right;
     margin: -30px 50px;
 }
@@ -165,12 +179,15 @@ body{
     background-color:rgb(236, 201, 213);
     color: #be0f2a;
     border: 1px solid rgb(207, 98, 116);
+    width: 190px;
+    transition: 0.5s;
 } 
 .view{
     position: absolute;
     width: 150px;
     border: 1px solid transparent;
     color: rgb(243, 213, 224);
+    background-color: #be0f2a;
     font-size: 16px;
     padding: 12px 15px;
     text-align: center;
@@ -307,9 +324,11 @@ body{
     z-index: 1;
 }
 .viewoffers:hover{
-    background-color:rgb(252, 234, 240);
+    background-color:rgb(255, 255, 255);
     color: #be0f2a;
     border: 1px solid rgb(207, 98, 116);
+    width: 180px;
+    transition: 0.5s;
 }
 .become{
     text-align: center;
