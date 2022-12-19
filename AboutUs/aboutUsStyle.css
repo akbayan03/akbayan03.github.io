@@ -31,16 +31,30 @@ body{
 .header div:hover{
     color: #be0f2a;
 }
+.headicon{
+    padding: 5px 5px;
+    background-color:#be0f2a;
+}
+.headicon:hover{
+    background-color: rgb(204, 0, 85);
+}
+.headicons{
+    display: flex;
+    flex-direction: row;
+}
+.headicons img{
+    margin: 0 -5px;
+}
 .main_h1{
-    color: #FFFF;
+    color: rgb(255, 255, 255);
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     bottom: 30%;
     widows: 100%;
-    font-weight: bolder;
-    margin-left: 160px;
+    font-weight:bolder;
+    margin-left: 100px;
     font-size: 50px;
 }
 .main_photo{
@@ -65,7 +79,7 @@ body{
     z-index: 10;
   }
 .main_text h2{
-    margin: 0px 0px 20px 0px;
+    margin: 50px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     font-family: 'Open Sans';
     font-weight: 500;
@@ -79,10 +93,10 @@ body{
     text-transform: none;
 }
 .main_text p{
-    margin: 0px 0px 20px 0px;
+    margin: 20px 30px 20px 80px;
     padding: 0px 0px 0px 0px;
     font-family: 'Open Sans';
-    width: 100%;
+    width: 1200px;
     font-size: 18px;
     color: #333333;
     text-align: center;
@@ -105,7 +119,7 @@ body{
     flex-direction: row-reverse;
 }
 .about-text h2{
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 50px 50px;
     padding: 0px 50px 0px 0px;
     font-family: 'Open Sans';
     font-weight: normal;
@@ -119,7 +133,7 @@ body{
     display: inline-block;
 }
 .about-text h2 span{
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 50px 50px;
     padding: 0px 0px 0px 0px;
     font-family: 'Open Sans';
     font-weight: bold;
@@ -131,7 +145,7 @@ body{
     text-transform: none;
 }
 .about-text p{
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 50px;
     padding: 0px 0px 0px 0px;
     font-family: 'Open Sans';
     width: 60%;
@@ -144,11 +158,11 @@ body{
     text-transform: none;
 }
 .about-1 img{
-    margin: 0px 0px 0px 0px;
-padding: 0px 0px 0px 0px;
-width: 40%;
-height: auto;
-background: transparent;
+    margin: 0px 100px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 40%;
+    height: auto;
+    background: transparent;
 }
 .about-2{
     margin: 50px 50px 50px 50px;
