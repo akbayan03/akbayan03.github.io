@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    }
+body{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+}
+.header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1ps solid black;
+    height: 80px;
+    background-color: black;
+    width: 100%;
+    z-index: 2;
+}
+.header div,a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 15px;
+}
+.header img{
+    margin-left: 50px;
+}
+.header div:hover{
+    color: #be0f2a;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.tel, .address, .email{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 20px solid rgb(240, 240, 240);
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 170px;
+}
+.logos3{
+    margin-left: 360px;
+}
+.logos2{
+    margin-left: 370px;
+}
+.logos1{
+    margin-left: 170px;
+}
+.logos div{
+    margin-top: 200px;
+}
+.telephone, .addr, .mail{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 18px;
+}
