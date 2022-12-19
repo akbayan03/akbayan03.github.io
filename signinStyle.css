@@ -124,18 +124,18 @@ body{
 .inputbox input:focus ~ i{
       height: 44px;
 }
-.links{
+.linkss{
     display: flex;
     justify-content: space-between;
 }
-.links a{
+.linkss a{
     margin: 10px 0;
 	font-size: 0.75em;
 	color: #000000;
 	text-decoration: none;
 }
-.links a:hover,
-.links a:nth-child(2){
+.linkss a:hover,
+.linkss a:nth-child(2){
     color: #000000;
 }
 input[type="submit"]{
