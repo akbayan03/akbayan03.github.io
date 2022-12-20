@@ -6,6 +6,9 @@ html, body {
     background: #FFFFFF;
     text-align: left;
 }
+.main{
+    width: 100%;
+}
 .header{
     position: fixed;
     display: flex;
@@ -127,35 +130,12 @@ html, body {
     font-weight: normal;
     text-transform: none;
 }
-/* .service2 { 
-    margin: 0px 0px 0px 0px;
-    padding: 330px 0px 20px 0px;
-    width: 100%;
-    height: auto;
-    position: relative;
-    background: transparent;
-}
-.service2-img {
-    margin: 0px auto;
-    padding: 0px 0px 0px 0px;
-    width: 25%;
-    height: auto;
-    background: transparent;
-    position: relative;
-    z-index: 10;
-    float: left;
-}
-.service2-img img {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    width: 100%;
-    height: auto;
-    background: transparent;
-}*/
+
 .column {
     float: left;
     width: 25%;
-    padding: 10px;
+    padding: 0px;
+    height:fit-content;
   }
   
   /* Style the images inside the grid */
@@ -199,3 +179,60 @@ html, body {
     font-size: 35px;
     cursor: pointer;
   }
+.service2 {
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 20px 0px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: transparent;
+}
+.service2-img {
+    margin: 0px auto;
+    padding: 0px 30px 0px 0px;
+    width: 40%;
+    height: auto;
+    background: transparent;
+    position: relative;
+    z-index: 10;
+    float: left;
+}
+.s-content2{
+    margin: 0px auto;
+    padding: 0px 0px 0px 20px;
+    width: 40%;
+    height: auto;
+    background: transparent;
+    position: relative;
+    z-index: 10;
+    text-align: left;
+    float: right;
+}
+
+.s-content2 h2 {
+    margin: 0px 0px 50px 0px;
+    padding: 0px 50px 0px 0px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 30px;
+    color: #be0f2a;
+    text-align: left;
+    line-height: 50px;
+    background: transparent;
+    text-transform: none;
+    border-bottom: 1px solid #b1b1b1;
+    display: inline-block;
+}
+.s-content2 p {
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Open Sans';
+    width: 100%;
+    font-size: 16px;
+    color: #333333;
+    text-align: justify;
+    line-height: 30px;
+    background: transparent;
+    font-weight: 400;
+    text-transform: none;
+}

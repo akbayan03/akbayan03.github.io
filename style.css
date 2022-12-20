@@ -31,8 +31,6 @@ body{
 .header div:hover{
     color: #be0f2a;
 }
-<<<<<<< HEAD
-=======
 .headicon{
     padding: 5px 5px;
     background-color:#be0f2a;
@@ -47,7 +45,6 @@ body{
 .headicons img{
     margin: 0 -5px;
 }
->>>>>>> 7bd4ff7ae40864d2ede0f3702aa1ab3fd2d4e540
 .texxt{
     margin-top: -400px;
     color: white;
