@@ -99,7 +99,6 @@ body{
     margin-left: 20px;
     margin-bottom: 50px;
 }
-
 .inc-exc div ul{
     width: 100%;
     height: auto;
@@ -145,19 +144,19 @@ body{
     margin-bottom: 20px;
 }
 .offer p a{
-      margin: 0px auto;
-  padding: 10px 30px;
-  font-family: 'Open Sans';
-  font-size: 16px;
-  color: #FFFFFF;
-  text-align: left;
-  line-height: 50px;
-  background: #be0f2a;
-  font-weight: 600;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  border: 2px solid #be0f2a;
+    margin: 0px auto;
+    padding: 10px 30px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 50px;
+    background: #be0f2a;
+    font-weight: 600;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: 2px solid #be0f2a;
 }
 .offer p{
     font-family: 'Open Sans';
