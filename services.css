@@ -15,7 +15,7 @@ html, body {
     height: 80px;
     background-color: black;
     width: 100%;
-    z-index: 2;
+    z-index: 3;
 }
 .header div,a{
     color: white;
@@ -23,11 +23,25 @@ html, body {
     font-size: 15px;
     margin: 0 15px;
 }
-.header img{
+.header video{
     margin-left: 50px;
 }
 .header div:hover{
     color: #be0f2a;
+}
+.headicon{
+    padding: 5px 5px;
+    background-color:#be0f2a;
+}
+.headicon:hover{
+    background-color: beige;
+}
+.headicons{
+    display: flex;
+    flex-direction: row;
+}
+.headicons img{
+    margin: 0 -5px;
 }
 .sbt {
     margin-top: -250px;
@@ -127,37 +141,14 @@ html, body {
     font-weight: normal;
     text-transform: none;
 }
-/* .service2 { 
-    margin: 0px 0px 0px 0px;
-    padding: 330px 0px 20px 0px;
-    width: 100%;
-    height: auto;
-    position: relative;
-    background: transparent;
-}
-.service2-img {
-    margin: 0px auto;
-    padding: 0px 0px 0px 0px;
-    width: 25%;
-    height: auto;
-    background: transparent;
-    position: relative;
-    z-index: 10;
-    float: left;
-}
-.service2-img img {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    width: 100%;
-    height: auto;
-    background: transparent;
-}*/
 .column {
     float: left;
     width: 25%;
     padding: 10px;
   }
-  
+.mainn{
+    width: 100%;
+}
   /* Style the images inside the grid */
   .column img {
     opacity: 0.8;
@@ -199,3 +190,80 @@ html, body {
     font-size: 35px;
     cursor: pointer;
   }
+  .footer{
+    width: 100%;
+    height: 400px;
+    background-color: #be0f2a;
+}
+.words{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    font-size: 30px;
+}
+.words div{
+    margin-top: 70px;
+    color: rgb(255, 255, 255);
+    margin-left: -130px;
+}
+.txt{
+    width: 400px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: -180px;
+    line-height: 30px;
+}
+.links a{
+    font-size: 17px;
+}
+.links a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.tours{
+    display: flex;
+    flex-direction: column;
+    margin-left: 890px;
+    margin-top: -200px;
+    line-height: 30px;
+}
+.tours a{
+    font-size: 15px;
+}
+.tours2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1100px;
+    margin-top: -150px;
+    line-height: 30px;
+}
+.tours2 a{
+    font-size: 15px;
+}
+.tours a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.tours2 a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.facebook{
+    margin-left: 50px;
+}
+.inst{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.icons{
+    margin-top: 20px;
+}
